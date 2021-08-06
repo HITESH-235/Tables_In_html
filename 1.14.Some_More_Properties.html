@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!At first, we will see height, width. they are used to set the length and breadth of the tag>
+<!If table is used it will decide the length & breadth of table on screen in px, %(% means if written 100%, it will cover whole screen>
+<!but their are too much problems(try different tags with different properties) also said as exceptions>
+<!For example, if we use padding, then alignment property will face problem and you wouldn't get required output>
+<!And the way they are written must be followed for any property you learned>
+<!You can align your tag as you wish using the write name(vertical, text(horizontal actually), left, right>
+<!Don't forget to give the right colon at write place or you can't get desired output> 
+<html>
+<head>
+<title>SOME MORE PROPERTIES IN HTML</title>
+<style>
+table
+{
+width:100%
+}
+table, th, td
+{
+border: 1px solid black;
+border-collapse: collapse;
+}
+th
+{
+height:100px;
+vertical-align:middle;
+text-align:left;
+}
+td
+{
+height:50px;
+vertical-align:bottom;
+}
+</style> 
+</head>
+<body>
+	<table>
+		<caption>My Favourite Aliens In Ben 10</caption>
+		<tr>
+			<th>Name</th>
+			<th>Abilities</th>
+			<th>Found In</th>
+			<th>Species</th>
+		</tr>
+		<tr>
+			<td>Alien X</td>
+			<td>Infinite Strength & time control</td>
+			<td>Forge Of Creation</td>
+			<td>Celestialsapien</td>
+		</tr>
+		<tr>
+			<td>Humungousaur</td>
+			<td>Super Strength & increase in size</td>
+			<td>Planet Terradino</td>
+			<td>Vaxasaurian</td>
+		</tr>
+		<tr>
+			<td>Big Chill</td>
+			<td>Cyrokinesis, Cold & Heat Resistence</td>
+			<td>Planet Kylmyys</td>
+			<td>Necrofriggian</td>
+		</tr>
+	</table>
+</body>
+</html>
